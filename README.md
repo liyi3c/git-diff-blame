@@ -2,9 +2,12 @@
 
 Annotates each line in a diff hunk with author and commit information like blame.
 
+## syntax
+git-diff-blame old_rev <new _rev> <path>
+
 ## Example:
 
-    $ git diff-blame HEAD^
+    $ git-diff-blame HEAD^
     diff --git c/git-diff-blame w/git-diff-blame
     --- c/git-diff-blame
     +++ w/git-diff-blame
